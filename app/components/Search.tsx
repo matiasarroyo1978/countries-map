@@ -1,20 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-
-interface Country {
-  name: string
-  code: string
-  latitude: number
-  longitude: number
-}
-
-interface SearchProps {
-  countries: Country[]
-  onSearch: (filteredCountries: Country[]) => void
-  onSelectCountry: (country: Country) => void
-}
-
+import { Country, SearchProps } from '../types/types';
 export default function Search({ countries, onSearch, onSelectCountry }: SearchProps) {
   const [query, setQuery] = useState('')
   const [suggestions, setSuggestions] = useState<Country[]>([])

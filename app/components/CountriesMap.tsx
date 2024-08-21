@@ -4,25 +4,9 @@ import { useQuery } from '@apollo/client'
 import dynamic from 'next/dynamic'
 import { GET_COUNTRIES } from '../lib/queries'
 import Search from './Search'
-
+import { Country, CountriesData } from '../types/types';
 // Importar el componente Map de forma dinámica para evitar problemas con SSR y Leaflet
 const Map = dynamic(() => import('./Map'), { ssr: false })
-
-// Definir la interfaz Country
-interface Country {
-  name: string
-  code: string
-  latitude: number
-  longitude: number
-}
-
-// Definir la estructura de datos que devuelve la consulta GraphQL
-interface CountriesData {
-  countries: Array<{
-    name: string
-    code: string
-  }>
-}
 
 // Importar datos de countries.json
 import countriesData from '../countries.json'

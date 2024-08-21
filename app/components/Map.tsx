@@ -2,22 +2,9 @@
 
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import L, { Icon } from 'leaflet'
+import { Icon } from 'leaflet'
 import { forwardRef, useEffect, useImperativeHandle, Ref } from 'react'
-
-// Define the Country interface
-interface Country {
-  name: string
-  code: string
-  latitude: number
-  longitude: number
-}
-
-// Define the props for the Map component
-interface MapProps {
-  countries: Country[]
-  selectedCountry: Country | null
-}
+import { Country, MapProps} from '../types/types';
 
 function MapController({ selectedCountry }: { selectedCountry: Country | null }) {
   const map = useMap()
