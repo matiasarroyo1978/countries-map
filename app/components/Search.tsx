@@ -1,6 +1,6 @@
 "use client";
 
-import { Country, SearchProps } from "../types/types";
+import { SearchProps } from "../types/types";
 import { useState, useEffect } from "react";
 
 const Input = ({ ...props }: React.InputHTMLAttributes<HTMLInputElement>) => (
