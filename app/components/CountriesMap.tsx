@@ -1,23 +1,21 @@
 'use client'
+
 import { useState, useRef } from 'react'
 import { useQuery } from '@apollo/client'
 import dynamic from 'next/dynamic'
 import { GET_COUNTRIES } from '../lib/queries'
 import Search from './Search'
-import { Country, CountriesData } from '../types/types';
-// Importar el componente Map de forma dinámica para evitar problemas con SSR y Leaflet
-const Map = dynamic(() => import('./Map'), { ssr: false })
-
-// Importar datos de countries.json
+import { Country, CountriesData } from '../types/types'
 import countriesData from '../countries.json'
+import Footer from './Footer'
 
-export default function CountriesMap() {
+const Map = dynamic(() => import('./Map'), { ssr: false })
+export default function Component() {
   const [filteredCountries, setFilteredCountries] = useState<Country[]>([])
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null)
   const mapRef = useRef<any>(null)
   const { loading, error, data } = useQuery<CountriesData>(GET_COUNTRIES)
 
-  // Combinar los datos de GraphQL con los datos de countries.json
   const countries: Country[] = data?.countries.map(country => {
     const countryData = countriesData.find(c => c['ISO Code'] === country.code)
     return {
@@ -43,19 +41,19 @@ export default function CountriesMap() {
   if (error) return <p>Error: {error.message}</p>
 
   return (
-    <div className="flex flex-col h-screen">
-      <header className="bg-blue-500 text-white p-4 flex justify-center items-center">
-       <h1 className="text-2xl font-bold">Countries Map</h1>
+    <div className="flex flex-col min-h-screen bg-gray-100">
+      <header className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white p-4 flex justify-center items-center">
+        <h1 className="text-2xl font-bold">Countries Map</h1>
       </header>
-      <main className="flex-grow flex flex-col md:flex-row">
-        <div className="w-full md:w-1/3 p-4 search-container">
+      <main className="flex-grow flex flex-col md:flex-row p-4">
+        <div className="w-full md:w-1/3 p-4 bg-white rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
           <Search 
             countries={countries} 
             onSearch={handleSearch} 
             onSelectCountry={handleSelectCountry}
           />
         </div>
-        <div className="w-full md:w-2/3 h-64 md:h-auto map-container">
+        <div className="w-full md:w-2/3 h-[60vh] md:h-auto bg-white rounded-lg shadow-md overflow-hidden">
           <Map 
             countries={filteredCountries.length > 0 ? filteredCountries : countries} 
             selectedCountry={selectedCountry}
@@ -63,6 +61,7 @@ export default function CountriesMap() {
           />
         </div>
       </main>
+      <Footer/>
     </div>
   )
 }

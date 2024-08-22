@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Icon } from 'leaflet'
 import { forwardRef, useEffect, useImperativeHandle, Ref } from 'react'
-import { Country, MapProps} from '../types/types';
+import { Country, MapProps } from '../types/types'
 
 function MapController({ selectedCountry }: { selectedCountry: Country | null }) {
   const map = useMap()
@@ -19,7 +19,6 @@ function MapController({ selectedCountry }: { selectedCountry: Country | null })
 }
 
 const Map = forwardRef<any, MapProps>(({ countries, selectedCountry }, ref: Ref<any>) => {
-  // Create a custom icon for the markers using Leaflet's default icon from the CDN
   const customIcon = new Icon({
     iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
     shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
@@ -39,10 +38,20 @@ const Map = forwardRef<any, MapProps>(({ countries, selectedCountry }, ref: Ref<
   }))
 
   return (
-    <MapContainer center={[0, 0]} zoom={2} minZoom={2} style={{ height: '100%', width: '100%' }} ref={ref}>
+    <MapContainer 
+      center={[20, 0]} 
+      zoom={2} 
+      minZoom={2} 
+      maxZoom={18}
+      style={{ height: '100%', width: '100%' }} 
+      ref={ref}
+      worldCopyJump={false}
+      maxBounds={[[-90, -180], [90, 180]]}
+    >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        noWrap={true}
       />
       {countries.map((country) => (
         <Marker 
