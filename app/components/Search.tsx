@@ -1,57 +1,52 @@
-'use client'
+"use client";
 
-import { useState, useEffect } from 'react'
-import { Country, SearchProps } from '../types/types';
-export default function Search({ countries, onSearch, onSelectCountry }: SearchProps) {
-  const [query, setQuery] = useState('')
-  const [suggestions, setSuggestions] = useState<Country[]>([])
+import { Country, SearchProps } from "../types/types";
+import { useState, useEffect } from "react";
+
+const Input = ({ ...props }: React.InputHTMLAttributes<HTMLInputElement>) => (
+  <input
+    {...props}
+    className="w-full p-2 border border-input rounded bg-background text-foreground"
+  />
+);
+
+export default function Search({
+  countries,
+  onSearch,
+}: SearchProps) {
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
-    if (query.length > 0) {
-      const filtered = countries.filter(country => 
-        country.name.toLowerCase().includes(query.toLowerCase()) ||
-        country.code.toLowerCase().includes(query.toLowerCase())
-      )
-      setSuggestions(filtered)
-      onSearch(filtered)
+    if (Array.isArray(countries)) {
+      const filtered = countries.filter(
+        (country) =>
+          (country.name?.toLowerCase().includes(query.toLowerCase()) ??
+            false) ||
+          (country.code?.toLowerCase().includes(query.toLowerCase()) ??
+            false) ||
+          (country.continent?.toLowerCase().includes(query.toLowerCase()) ??
+            false) ||
+          (country.capital?.toLowerCase().includes(query.toLowerCase()) ??
+            false)
+      );
+      onSearch(filtered);
     } else {
-      setSuggestions([])
-      onSearch(countries)
+      onSearch([]);
     }
-  }, [query, countries, onSearch])
+  }, [query, countries, onSearch]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setQuery(e.target.value)
-  }
-
-  const handleSelectCountry = (country: Country) => {
-    setQuery(country.name)
-    setSuggestions([])
-    onSelectCountry(country)
-  }
+    setQuery(e.target.value);
+  };
 
   return (
-    <div className="mb-4 relative">
-      <input
+    <div className="mb-4">
+      <Input
         type="text"
         value={query}
         onChange={handleChange}
-        placeholder="Search for a country..."
-        className="w-full p-2 border border-gray-300 rounded"
+        placeholder="Search for a country, or capital"
       />
-      {suggestions.length > 0 && (
-        <ul className="absolute z-50 w-full bg-white border border-gray-300 rounded mt-1 max-h-60 overflow-y-auto">
-          {suggestions.map(country => (
-            <li 
-              key={country.code}
-              onClick={() => handleSelectCountry(country)}
-              className="p-2 hover:bg-gray-100 cursor-pointer"
-            >
-              {country.name} ({country.code})
-            </li>
-          ))}
-        </ul>
-      )}
     </div>
-  )
+  );
 }

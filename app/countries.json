@@ -1,80 +1,5473 @@
 [
-    {
-      "Country": "United States",
-      "ISO Code": "US",
-      "Latitude": 37.0902,
-      "Longitude": -95.5022
+  {
+    "__typename": "Country",
+    "name": "Andorra",
+    "code": "AD",
+    "capital": "Andorra la Vella",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Catalan"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
     },
-    {
-      "Country": "Canada",
-      "ISO Code": "CA",
-      "Latitude": 53.0000,
-      "Longitude": -123.0000
+    "ISO Code": "AD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "capital": "Abu Dhabi",
+    "currency": "AED",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
     },
-    {
-      "Country": "Mexico",
-      "ISO Code": "MX",
-      "Latitude": 23.0000,
-      "Longitude": -102.0000
+    "ISO Code": "AE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Afghanistan",
+    "code": "AF",
+    "capital": "Kabul",
+    "currency": "AFN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Pashto"
+      },
+      {
+        "__typename": "Language",
+        "name": "Uzbek"
+      },
+      {
+        "__typename": "Language",
+        "name": "Turkmen"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
     },
-    {
-      "Country": "Brazil",
-      "ISO Code": "BR",
-      "Latitude": -23.0000,
-      "Longitude": -55.0000
+    "ISO Code": "AF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Antigua and Barbuda",
+    "code": "AG",
+    "capital": "Saint John's",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
     },
-    {
-      "Country": "Argentina",
-      "ISO Code": "AR",
-      "Latitude": -32.0000,
-      "Longitude": -68.0000
+    "ISO Code": "AG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Anguilla",
+    "code": "AI",
+    "capital": "The Valley",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
     },
-    {
-      "Country": "Chile",
-      "ISO Code": "CL",
-      "Latitude": -33.0000,
-      "Longitude": -70.0000
+    "ISO Code": "AI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Albania",
+    "code": "AL",
+    "capital": "Tirana",
+    "currency": "ALL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Albanian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
     },
-    {
-      "Country": "Colombia",
-      "ISO Code": "CO",
-      "Latitude": 10.0000,
-      "Longitude": -72.0000
+    "ISO Code": "AL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Armenia",
+    "code": "AM",
+    "capital": "Yerevan",
+    "currency": "AMD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Armenian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
     },
-    {
-      "Country": "Peru",
-      "ISO Code": "PE",
-      "Latitude": -12.0000,
-      "Longitude": -77.0000
+    "ISO Code": "AM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Angola",
+    "code": "AO",
+    "capital": "Luanda",
+    "currency": "AOA",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
     },
-    {
-      "Country": "Ecuador",
-      "ISO Code": "EC",
-      "Latitude": -1.0000,
-      "Longitude": -79.0000
+    "ISO Code": "AO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Antarctica",
+    "code": "AQ",
+    "capital": null,
+    "currency": null,
+    "languages": [],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Antarctica"
     },
-    {
-      "Country": "Venezuela",
-      "ISO Code": "VE",
-      "Latitude": 7.0000,
-      "Longitude": -66.0000
+    "ISO Code": "AQ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Argentina",
+    "code": "AR",
+    "capital": "Buenos Aires",
+    "currency": "ARS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Guarani"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
     },
-    {
-      "Country": "Guyana",
-      "ISO Code": "GY",
-      "Latitude": 6.0000,
-      "Longitude": -58.0000
+    "ISO Code": "AR",
+    "Latitude": -32.0000,
+    "Longitude": -68.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "American Samoa",
+    "code": "AS",
+    "capital": "Pago Pago",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Samoan"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
     },
-    {
-      "Country": "Suriname",
-      "ISO Code": "SR",
-      "Latitude": 6.0000,
-      "Longitude": -55.0000
+    "ISO Code": "AS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Austria",
+    "code": "AT",
+    "capital": "Vienna",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "German"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
     },
-    {
-      "Country": "French Guiana",
-      "ISO Code": "GF",
-      "Latitude": 4.0000,
-      "Longitude": -53.0000
-    }
-  ]
+    "ISO Code": "AT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Australia",
+    "code": "AU",
+    "capital": "Canberra",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "AU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Aruba",
+    "code": "AW",
+    "capital": "Oranjestad",
+    "currency": "AWG",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      },
+      {
+        "__typename": "Language",
+        "name": "Panjabi / Punjabi"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "AW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Åland",
+    "code": "AX",
+    "capital": "Mariehamn",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Swedish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "AX",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "capital": "Baku",
+    "currency": "AZN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Azerbaijani"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "AZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bosnia and Herzegovina",
+    "code": "BA",
+    "capital": "Sarajevo",
+    "currency": "BAM",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Bosnian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Croatian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Serbian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "BA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Barbados",
+    "code": "BB",
+    "capital": "Bridgetown",
+    "currency": "BBD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BB",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bangladesh",
+    "code": "BD",
+    "capital": "Dhaka",
+    "currency": "BDT",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Bengali"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "BD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Belgium",
+    "code": "BE",
+    "capital": "Brussels",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "German"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "BE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Burkina Faso",
+    "code": "BF",
+    "capital": "Ouagadougou",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Peul"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "BF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bulgaria",
+    "code": "BG",
+    "capital": "Sofia",
+    "currency": "BGN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Bulgarian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "BG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bahrain",
+    "code": "BH",
+    "capital": "Manama",
+    "currency": "BHD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "BH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Burundi",
+    "code": "BI",
+    "capital": "Bujumbura",
+    "currency": "BIF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Kirundi"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "BI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Benin",
+    "code": "BJ",
+    "capital": "Porto-Novo",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "BJ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Barthélemy",
+    "code": "BL",
+    "capital": "Gustavia",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bermuda",
+    "code": "BM",
+    "capital": "Hamilton",
+    "currency": "BMD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Brunei",
+    "code": "BN",
+    "capital": "Bandar Seri Begawan",
+    "currency": "BND",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Malay"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "BN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bolivia",
+    "code": "BO",
+    "capital": "Sucre",
+    "currency": "BOB,BOV",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Aymara"
+      },
+      {
+        "__typename": "Language",
+        "name": "Quechua"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "BO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bonaire",
+    "code": "BQ",
+    "capital": "Kralendijk",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BQ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Brazil",
+    "code": "BR",
+    "capital": "Brasília",
+    "currency": "BRL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "BR",
+    "Latitude": -23.0000,
+    "Longitude": -55.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Bahamas",
+    "code": "BS",
+    "capital": "Nassau",
+    "currency": "BSD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bhutan",
+    "code": "BT",
+    "capital": "Thimphu",
+    "currency": "BTN,INR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dzongkha"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "BT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Bouvet Island",
+    "code": "BV",
+    "capital": null,
+    "currency": "NOK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Norwegian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Norwegian Bokmål"
+      },
+      {
+        "__typename": "Language",
+        "name": "Norwegian Nynorsk"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Antarctica"
+    },
+    "ISO Code": "BV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Botswana",
+    "code": "BW",
+    "capital": "Gaborone",
+    "currency": "BWP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tswana"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "BW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Belarus",
+    "code": "BY",
+    "capital": "Minsk",
+    "currency": "BYN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Belarusian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "BY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Belize",
+    "code": "BZ",
+    "capital": "Belmopan",
+    "currency": "BZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "BZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Canada",
+    "code": "CA",
+    "capital": "Ottawa",
+    "currency": "CAD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "CA",
+    "Latitude": 53.0000,
+    "Longitude": -123.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Cocos [Keeling] Islands",
+    "code": "CC",
+    "capital": "West Island",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "CC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Democratic Republic of the Congo",
+    "code": "CD",
+    "capital": "Kinshasa",
+    "currency": "CDF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Lingala"
+      },
+      {
+        "__typename": "Language",
+        "name": "Kongo"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swahili"
+      },
+      {
+        "__typename": "Language",
+        "name": "Luba-Katanga"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Central African Republic",
+    "code": "CF",
+    "capital": "Bangui",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Sango"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Republic of the Congo",
+    "code": "CG",
+    "capital": "Brazzaville",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Lingala"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Switzerland",
+    "code": "CH",
+    "capital": "Bern",
+    "currency": "CHE,CHF,CHW",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "German"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Italian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "CH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ivory Coast",
+    "code": "CI",
+    "capital": "Yamoussoukro",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cook Islands",
+    "code": "CK",
+    "capital": "Avarua",
+    "currency": "NZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "CK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Chile",
+    "code": "CL",
+    "capital": "Santiago",
+    "currency": "CLF,CLP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "CL",
+    "Latitude": -33.0000,
+    "Longitude": -70.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Cameroon",
+    "code": "CM",
+    "capital": "Yaoundé",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "China",
+    "code": "CN",
+    "capital": "Beijing",
+    "currency": "CNY",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Chinese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "CN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Colombia",
+    "code": "CO",
+    "capital": "Bogotá",
+    "currency": "COP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "CO",
+    "Latitude": 10.0000,
+    "Longitude": -72.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Costa Rica",
+    "code": "CR",
+    "capital": "San José",
+    "currency": "CRC",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "CR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cuba",
+    "code": "CU",
+    "capital": "Havana",
+    "currency": "CUC,CUP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "CU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cape Verde",
+    "code": "CV",
+    "capital": "Praia",
+    "currency": "CVE",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "CV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Curacao",
+    "code": "CW",
+    "capital": "Willemstad",
+    "currency": "ANG",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      },
+      {
+        "__typename": "Language",
+        "name": "Panjabi / Punjabi"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "CW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Christmas Island",
+    "code": "CX",
+    "capital": "Flying Fish Cove",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "CX",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cyprus",
+    "code": "CY",
+    "capital": "Nicosia",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Greek"
+      },
+      {
+        "__typename": "Language",
+        "name": "Turkish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Armenian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "CY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Czech Republic",
+    "code": "CZ",
+    "capital": "Prague",
+    "currency": "CZK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Czech"
+      },
+      {
+        "__typename": "Language",
+        "name": "Slovak"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "CZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Germany",
+    "code": "DE",
+    "capital": "Berlin",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "German"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "DE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Djibouti",
+    "code": "DJ",
+    "capital": "Djibouti",
+    "currency": "DJF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "DJ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Denmark",
+    "code": "DK",
+    "capital": "Copenhagen",
+    "currency": "DKK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Danish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "DK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Dominica",
+    "code": "DM",
+    "capital": "Roseau",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "DM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Dominican Republic",
+    "code": "DO",
+    "capital": "Santo Domingo",
+    "currency": "DOP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "DO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Algeria",
+    "code": "DZ",
+    "capital": "Algiers",
+    "currency": "DZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "DZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ecuador",
+    "code": "EC",
+    "capital": "Quito",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "EC",
+    "Latitude": -1.0000,
+    "Longitude": -79.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Estonia",
+    "code": "EE",
+    "capital": "Tallinn",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Estonian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "EE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Egypt",
+    "code": "EG",
+    "capital": "Cairo",
+    "currency": "EGP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "EG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Western Sahara",
+    "code": "EH",
+    "capital": "El Aaiún",
+    "currency": "MAD,DZD,MRU",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "EH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Eritrea",
+    "code": "ER",
+    "capital": "Asmara",
+    "currency": "ERN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Tigrinya"
+      },
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ER",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Spain",
+    "code": "ES",
+    "capital": "Madrid",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Basque"
+      },
+      {
+        "__typename": "Language",
+        "name": "Catalan"
+      },
+      {
+        "__typename": "Language",
+        "name": "Galician"
+      },
+      {
+        "__typename": "Language",
+        "name": "Occitan"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "ES",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ethiopia",
+    "code": "ET",
+    "capital": "Addis Ababa",
+    "currency": "ETB",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Amharic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ET",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Finland",
+    "code": "FI",
+    "capital": "Helsinki",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Finnish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swedish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "FI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Fiji",
+    "code": "FJ",
+    "capital": "Suva",
+    "currency": "FJD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Fijian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Hindi"
+      },
+      {
+        "__typename": "Language",
+        "name": "Urdu"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "FJ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Falkland Islands",
+    "code": "FK",
+    "capital": "Stanley",
+    "currency": "FKP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "FK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Micronesia",
+    "code": "FM",
+    "capital": "Palikir",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "FM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Faroe Islands",
+    "code": "FO",
+    "capital": "Tórshavn",
+    "currency": "DKK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Faroese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "FO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "France",
+    "code": "FR",
+    "capital": "Paris",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "FR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Gabon",
+    "code": "GA",
+    "capital": "Libreville",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "United Kingdom",
+    "code": "GB",
+    "capital": "London",
+    "currency": "GBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "GB",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Grenada",
+    "code": "GD",
+    "capital": "St. George's",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "GD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Georgia",
+    "code": "GE",
+    "capital": "Tbilisi",
+    "currency": "GEL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Georgian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "GE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "French Guiana",
+    "code": "GF",
+    "capital": "Cayenne",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "GF",
+    "Latitude": 4.0000,
+    "Longitude": -53.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Guernsey",
+    "code": "GG",
+    "capital": "St. Peter Port",
+    "currency": "GBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "GG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ghana",
+    "code": "GH",
+    "capital": "Accra",
+    "currency": "GHS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Gibraltar",
+    "code": "GI",
+    "capital": "Gibraltar",
+    "currency": "GIP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "GI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Greenland",
+    "code": "GL",
+    "capital": "Nuuk",
+    "currency": "DKK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Greenlandic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "GL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Gambia",
+    "code": "GM",
+    "capital": "Banjul",
+    "currency": "GMD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guinea",
+    "code": "GN",
+    "capital": "Conakry",
+    "currency": "GNF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Peul"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guadeloupe",
+    "code": "GP",
+    "capital": "Basse-Terre",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "GP",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Equatorial Guinea",
+    "code": "GQ",
+    "capital": "Malabo",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GQ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Greece",
+    "code": "GR",
+    "capital": "Athens",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Greek"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "GR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "South Georgia and the South Sandwich Islands",
+    "code": "GS",
+    "capital": "King Edward Point",
+    "currency": "GBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Antarctica"
+    },
+    "ISO Code": "GS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guatemala",
+    "code": "GT",
+    "capital": "Guatemala City",
+    "currency": "GTQ",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "GT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guam",
+    "code": "GU",
+    "capital": "Hagåtña",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Chamorro"
+      },
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "GU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guinea-Bissau",
+    "code": "GW",
+    "capital": "Bissau",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "GW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Guyana",
+    "code": "GY",
+    "capital": "Georgetown",
+    "currency": "GYD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "GY",
+    "Latitude": 6.0000,
+    "Longitude": -58.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Hong Kong",
+    "code": "HK",
+    "capital": "City of Victoria",
+    "currency": "HKD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Chinese"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "HK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Heard Island and McDonald Islands",
+    "code": "HM",
+    "capital": null,
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Antarctica"
+    },
+    "ISO Code": "HM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Honduras",
+    "code": "HN",
+    "capital": "Tegucigalpa",
+    "currency": "HNL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "HN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Croatia",
+    "code": "HR",
+    "capital": "Zagreb",
+    "currency": "HRK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Croatian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "HR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Haiti",
+    "code": "HT",
+    "capital": "Port-au-Prince",
+    "currency": "HTG,USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Haitian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "HT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Hungary",
+    "code": "HU",
+    "capital": "Budapest",
+    "currency": "HUF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Hungarian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "HU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Indonesia",
+    "code": "ID",
+    "capital": "Jakarta",
+    "currency": "IDR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Indonesian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "ID",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ireland",
+    "code": "IE",
+    "capital": "Dublin",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Irish"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "IE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Israel",
+    "code": "IL",
+    "capital": "Jerusalem",
+    "currency": "ILS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Hebrew"
+      },
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "IL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Isle of Man",
+    "code": "IM",
+    "capital": "Douglas",
+    "currency": "GBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Manx"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "IM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "India",
+    "code": "IN",
+    "capital": "New Delhi",
+    "currency": "INR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Hindi"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "IN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "British Indian Ocean Territory",
+    "code": "IO",
+    "capital": "Diego Garcia",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "IO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Iraq",
+    "code": "IQ",
+    "capital": "Baghdad",
+    "currency": "IQD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      },
+      {
+        "__typename": "Language",
+        "name": "Kurdish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "IQ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Iran",
+    "code": "IR",
+    "capital": "Tehran",
+    "currency": "IRR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Persian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "IR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Iceland",
+    "code": "IS",
+    "capital": "Reykjavik",
+    "currency": "ISK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Icelandic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "IS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Italy",
+    "code": "IT",
+    "capital": "Rome",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Italian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "IT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Jersey",
+    "code": "JE",
+    "capital": "Saint Helier",
+    "currency": "GBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "JE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Jamaica",
+    "code": "JM",
+    "capital": "Kingston",
+    "currency": "JMD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "JM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Jordan",
+    "code": "JO",
+    "capital": "Amman",
+    "currency": "JOD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "JO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Japan",
+    "code": "JP",
+    "capital": "Tokyo",
+    "currency": "JPY",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Japanese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "JP",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kenya",
+    "code": "KE",
+    "capital": "Nairobi",
+    "currency": "KES",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swahili"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "KE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "capital": "Bishkek",
+    "currency": "KGS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Kyrgyz"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cambodia",
+    "code": "KH",
+    "capital": "Phnom Penh",
+    "currency": "KHR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Cambodian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kiribati",
+    "code": "KI",
+    "capital": "South Tarawa",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "KI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Comoros",
+    "code": "KM",
+    "capital": "Moroni",
+    "currency": "KMF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "KM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Kitts and Nevis",
+    "code": "KN",
+    "capital": "Basseterre",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "KN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "North Korea",
+    "code": "KP",
+    "capital": "Pyongyang",
+    "currency": "KPW",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Korean"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KP",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "South Korea",
+    "code": "KR",
+    "capital": "Seoul",
+    "currency": "KRW",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Korean"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kuwait",
+    "code": "KW",
+    "capital": "Kuwait City",
+    "currency": "KWD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Cayman Islands",
+    "code": "KY",
+    "capital": "George Town",
+    "currency": "KYD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "KY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "capital": "Astana",
+    "currency": "KZT",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Kazakh"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "KZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Laos",
+    "code": "LA",
+    "capital": "Vientiane",
+    "currency": "LAK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Laotian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "LA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Lebanon",
+    "code": "LB",
+    "capital": "Beirut",
+    "currency": "LBP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "LB",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Lucia",
+    "code": "LC",
+    "capital": "Castries",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "LC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Liechtenstein",
+    "code": "LI",
+    "capital": "Vaduz",
+    "currency": "CHF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "German"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "LI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Sri Lanka",
+    "code": "LK",
+    "capital": "Colombo",
+    "currency": "LKR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Sinhalese"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tamil"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "LK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Liberia",
+    "code": "LR",
+    "capital": "Monrovia",
+    "currency": "LRD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "LR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Lesotho",
+    "code": "LS",
+    "capital": "Maseru",
+    "currency": "LSL,ZAR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Southern Sotho"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "LS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Lithuania",
+    "code": "LT",
+    "capital": "Vilnius",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Lithuanian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "LT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Luxembourg",
+    "code": "LU",
+    "capital": "Luxembourg",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "German"
+      },
+      {
+        "__typename": "Language",
+        "name": "Luxembourgish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "LU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Latvia",
+    "code": "LV",
+    "capital": "Riga",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Latvian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "LV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Libya",
+    "code": "LY",
+    "capital": "Tripoli",
+    "currency": "LYD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "LY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Morocco",
+    "code": "MA",
+    "capital": "Rabat",
+    "currency": "MAD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Monaco",
+    "code": "MC",
+    "capital": "Monaco",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "MC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Moldova",
+    "code": "MD",
+    "capital": "Chișinău",
+    "currency": "MDL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Romanian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "MD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Montenegro",
+    "code": "ME",
+    "capital": "Podgorica",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Serbian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Bosnian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Albanian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Croatian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "ME",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Martin",
+    "code": "MF",
+    "capital": "Marigot",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "MF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Madagascar",
+    "code": "MG",
+    "capital": "Antananarivo",
+    "currency": "MGA",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Malagasy"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Marshall Islands",
+    "code": "MH",
+    "capital": "Majuro",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Marshallese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "MH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "North Macedonia",
+    "code": "MK",
+    "capital": "Skopje",
+    "currency": "MKD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Macedonian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "MK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mali",
+    "code": "ML",
+    "capital": "Bamako",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ML",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Myanmar [Burma]",
+    "code": "MM",
+    "capital": "Naypyidaw",
+    "currency": "MMK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Burmese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "MM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mongolia",
+    "code": "MN",
+    "capital": "Ulan Bator",
+    "currency": "MNT",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Mongolian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "MN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Macao",
+    "code": "MO",
+    "capital": null,
+    "currency": "MOP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Chinese"
+      },
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "MO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Northern Mariana Islands",
+    "code": "MP",
+    "capital": "Saipan",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Chamorro"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "MP",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Martinique",
+    "code": "MQ",
+    "capital": "Fort-de-France",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "MQ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mauritania",
+    "code": "MR",
+    "capital": "Nouakchott",
+    "currency": "MRU",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Montserrat",
+    "code": "MS",
+    "capital": "Plymouth",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "MS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Malta",
+    "code": "MT",
+    "capital": "Valletta",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Maltese"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "MT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mauritius",
+    "code": "MU",
+    "capital": "Port Louis",
+    "currency": "MUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Maldives",
+    "code": "MV",
+    "capital": "Malé",
+    "currency": "MVR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Divehi"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "MV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Malawi",
+    "code": "MW",
+    "capital": "Lilongwe",
+    "currency": "MWK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Chichewa"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mexico",
+    "code": "MX",
+    "capital": "Mexico City",
+    "currency": "MXN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "MX",
+    "Latitude": 23.0000,
+    "Longitude": -102.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "Malaysia",
+    "code": "MY",
+    "capital": "Kuala Lumpur",
+    "currency": "MYR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Malay"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "MY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mozambique",
+    "code": "MZ",
+    "capital": "Maputo",
+    "currency": "MZN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "MZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Namibia",
+    "code": "NA",
+    "capital": "Windhoek",
+    "currency": "NAD,ZAR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Afrikaans"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "NA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "New Caledonia",
+    "code": "NC",
+    "capital": "Nouméa",
+    "currency": "XPF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "NC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Niger",
+    "code": "NE",
+    "capital": "Niamey",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "NE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Norfolk Island",
+    "code": "NF",
+    "capital": "Kingston",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "NF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Nigeria",
+    "code": "NG",
+    "capital": "Abuja",
+    "currency": "NGN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "NG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Nicaragua",
+    "code": "NI",
+    "capital": "Managua",
+    "currency": "NIO",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "NI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Netherlands",
+    "code": "NL",
+    "capital": "Amsterdam",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "NL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Norway",
+    "code": "NO",
+    "capital": "Oslo",
+    "currency": "NOK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Norwegian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Norwegian Bokmål"
+      },
+      {
+        "__typename": "Language",
+        "name": "Norwegian Nynorsk"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "NO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Nepal",
+    "code": "NP",
+    "capital": "Kathmandu",
+    "currency": "NPR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Nepali"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "NP",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Nauru",
+    "code": "NR",
+    "capital": "Yaren",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Nauruan"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "NR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Niue",
+    "code": "NU",
+    "capital": "Alofi",
+    "currency": "NZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "NU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "New Zealand",
+    "code": "NZ",
+    "capital": "Wellington",
+    "currency": "NZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Maori"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "NZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Oman",
+    "code": "OM",
+    "capital": "Muscat",
+    "currency": "OMR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "OM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Panama",
+    "code": "PA",
+    "capital": "Panama City",
+    "currency": "PAB,USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "PA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Peru",
+    "code": "PE",
+    "capital": "Lima",
+    "currency": "PEN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "PE",
+    "Latitude": -12.0000,
+    "Longitude": -77.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "French Polynesia",
+    "code": "PF",
+    "capital": "Papeetē",
+    "currency": "XPF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "PF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "capital": "Port Moresby",
+    "currency": "PGK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "PG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Philippines",
+    "code": "PH",
+    "capital": "Manila",
+    "currency": "PHP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "PH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Pakistan",
+    "code": "PK",
+    "capital": "Islamabad",
+    "currency": "PKR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Urdu"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "PK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Poland",
+    "code": "PL",
+    "capital": "Warsaw",
+    "currency": "PLN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Polish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "PL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Pierre and Miquelon",
+    "code": "PM",
+    "capital": "Saint-Pierre",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "PM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Pitcairn Islands",
+    "code": "PN",
+    "capital": "Adamstown",
+    "currency": "NZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "PN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Puerto Rico",
+    "code": "PR",
+    "capital": "San Juan",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "PR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Palestine",
+    "code": "PS",
+    "capital": "Ramallah",
+    "currency": "ILS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "PS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Portugal",
+    "code": "PT",
+    "capital": "Lisbon",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "PT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Palau",
+    "code": "PW",
+    "capital": "Ngerulmud",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "PW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Paraguay",
+    "code": "PY",
+    "capital": "Asunción",
+    "currency": "PYG",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      },
+      {
+        "__typename": "Language",
+        "name": "Guarani"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "PY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Qatar",
+    "code": "QA",
+    "capital": "Doha",
+    "currency": "QAR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "QA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Réunion",
+    "code": "RE",
+    "capital": "Saint-Denis",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "RE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Romania",
+    "code": "RO",
+    "capital": "Bucharest",
+    "currency": "RON",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Romanian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "RO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Serbia",
+    "code": "RS",
+    "capital": "Belgrade",
+    "currency": "RSD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Serbian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "RS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Russia",
+    "code": "RU",
+    "capital": "Moscow",
+    "currency": "RUB",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "RU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Rwanda",
+    "code": "RW",
+    "capital": "Kigali",
+    "currency": "RWF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Rwandi"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "RW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "capital": "Riyadh",
+    "currency": "SAR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "SA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Solomon Islands",
+    "code": "SB",
+    "capital": "Honiara",
+    "currency": "SBD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "SB",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Seychelles",
+    "code": "SC",
+    "capital": "Victoria",
+    "currency": "SCR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Sudan",
+    "code": "SD",
+    "capital": "Khartoum",
+    "currency": "SDG",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Sweden",
+    "code": "SE",
+    "capital": "Stockholm",
+    "currency": "SEK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Swedish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "SE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Singapore",
+    "code": "SG",
+    "capital": "Singapore",
+    "currency": "SGD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Malay"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tamil"
+      },
+      {
+        "__typename": "Language",
+        "name": "Chinese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "SG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Helena",
+    "code": "SH",
+    "capital": "Jamestown",
+    "currency": "SHP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Slovenia",
+    "code": "SI",
+    "capital": "Ljubljana",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Slovenian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "SI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Svalbard and Jan Mayen",
+    "code": "SJ",
+    "capital": "Longyearbyen",
+    "currency": "NOK",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Norwegian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "SJ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Slovakia",
+    "code": "SK",
+    "capital": "Bratislava",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Slovak"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "SK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Sierra Leone",
+    "code": "SL",
+    "capital": "Freetown",
+    "currency": "SLL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "San Marino",
+    "code": "SM",
+    "capital": "City of San Marino",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Italian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "SM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Senegal",
+    "code": "SN",
+    "capital": "Dakar",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Somalia",
+    "code": "SO",
+    "capital": "Mogadishu",
+    "currency": "SOS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Somalia"
+      },
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Suriname",
+    "code": "SR",
+    "capital": "Paramaribo",
+    "currency": "SRD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "SR",
+    "Latitude": 6.0000,
+    "Longitude": -55.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "South Sudan",
+    "code": "SS",
+    "capital": "Juba",
+    "currency": "SSP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "São Tomé and Príncipe",
+    "code": "ST",
+    "capital": "São Tomé",
+    "currency": "STN",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ST",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "El Salvador",
+    "code": "SV",
+    "capital": "San Salvador",
+    "currency": "SVC,USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "SV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Sint Maarten",
+    "code": "SX",
+    "capital": "Philipsburg",
+    "currency": "ANG",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Dutch"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "SX",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Syria",
+    "code": "SY",
+    "capital": "Damascus",
+    "currency": "SYP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "SY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Swaziland",
+    "code": "SZ",
+    "capital": "Lobamba",
+    "currency": "SZL",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swati"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "SZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Turks and Caicos Islands",
+    "code": "TC",
+    "capital": "Cockburn Town",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "TC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Chad",
+    "code": "TD",
+    "capital": "N'Djamena",
+    "currency": "XAF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      },
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "TD",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "French Southern Territories",
+    "code": "TF",
+    "capital": "Port-aux-Français",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Antarctica"
+    },
+    "ISO Code": "TF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Togo",
+    "code": "TG",
+    "capital": "Lomé",
+    "currency": "XOF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "TG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Thailand",
+    "code": "TH",
+    "capital": "Bangkok",
+    "currency": "THB",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Thai"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "TH",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tajikistan",
+    "code": "TJ",
+    "capital": "Dushanbe",
+    "currency": "TJS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Tajik"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "TJ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tokelau",
+    "code": "TK",
+    "capital": "Fakaofo",
+    "currency": "NZD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "TK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "East Timor",
+    "code": "TL",
+    "capital": "Dili",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Portuguese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "TL",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Turkmenistan",
+    "code": "TM",
+    "capital": "Ashgabat",
+    "currency": "TMT",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Turkmen"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "TM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tunisia",
+    "code": "TN",
+    "capital": "Tunis",
+    "currency": "TND",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "TN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tonga",
+    "code": "TO",
+    "capital": "Nuku'alofa",
+    "currency": "TOP",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tonga"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "TO",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Turkey",
+    "code": "TR",
+    "capital": "Ankara",
+    "currency": "TRY",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Turkish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "TR",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Trinidad and Tobago",
+    "code": "TT",
+    "capital": "Port of Spain",
+    "currency": "TTD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "TT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tuvalu",
+    "code": "TV",
+    "capital": "Funafuti",
+    "currency": "AUD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "TV",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Taiwan",
+    "code": "TW",
+    "capital": "Taipei",
+    "currency": "TWD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Chinese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "TW",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Tanzania",
+    "code": "TZ",
+    "capital": "Dodoma",
+    "currency": "TZS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Swahili"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "TZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Ukraine",
+    "code": "UA",
+    "capital": "Kyiv",
+    "currency": "UAH",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Ukrainian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "UA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Uganda",
+    "code": "UG",
+    "capital": "Kampala",
+    "currency": "UGX",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swahili"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "UG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "U.S. Minor Outlying Islands",
+    "code": "UM",
+    "capital": null,
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "UM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "United States",
+    "code": "US",
+    "capital": "Washington D.C.",
+    "currency": "USD,USN,USS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "US",
+    "Latitude": 37.0902,
+    "Longitude": -95.5022
+  },
+  {
+    "__typename": "Country",
+    "name": "Uruguay",
+    "code": "UY",
+    "capital": "Montevideo",
+    "currency": "UYI,UYU",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "UY",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "capital": "Tashkent",
+    "currency": "UZS",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Uzbek"
+      },
+      {
+        "__typename": "Language",
+        "name": "Russian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "UZ",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Vatican City",
+    "code": "VA",
+    "capital": "Vatican City",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Italian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Latin"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "VA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Saint Vincent and the Grenadines",
+    "code": "VC",
+    "capital": "Kingstown",
+    "currency": "XCD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "VC",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Venezuela",
+    "code": "VE",
+    "capital": "Caracas",
+    "currency": "VES",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Spanish"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "South America"
+    },
+    "ISO Code": "VE",
+    "Latitude": 7.0000,
+    "Longitude": -66.0000
+  },
+  {
+    "__typename": "Country",
+    "name": "British Virgin Islands",
+    "code": "VG",
+    "capital": "Road Town",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "VG",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "U.S. Virgin Islands",
+    "code": "VI",
+    "capital": "Charlotte Amalie",
+    "currency": "USD",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "North America"
+    },
+    "ISO Code": "VI",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Vietnam",
+    "code": "VN",
+    "capital": "Hanoi",
+    "currency": "VND",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Vietnamese"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "VN",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Vanuatu",
+    "code": "VU",
+    "capital": "Port Vila",
+    "currency": "VUV",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Bislama"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "VU",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Wallis and Futuna",
+    "code": "WF",
+    "capital": "Mata-Utu",
+    "currency": "XPF",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "WF",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Samoa",
+    "code": "WS",
+    "capital": "Apia",
+    "currency": "WST",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Samoan"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Oceania"
+    },
+    "ISO Code": "WS",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Kosovo",
+    "code": "XK",
+    "capital": "Pristina",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Albanian"
+      },
+      {
+        "__typename": "Language",
+        "name": "Serbian"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Europe"
+    },
+    "ISO Code": "XK",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Yemen",
+    "code": "YE",
+    "capital": "Sana'a",
+    "currency": "YER",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Arabic"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Asia"
+    },
+    "ISO Code": "YE",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Mayotte",
+    "code": "YT",
+    "capital": "Mamoudzou",
+    "currency": "EUR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "French"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "YT",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "South Africa",
+    "code": "ZA",
+    "capital": "Pretoria",
+    "currency": "ZAR",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "Afrikaans"
+      },
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "South Ndebele"
+      },
+      {
+        "__typename": "Language",
+        "name": "Southern Sotho"
+      },
+      {
+        "__typename": "Language",
+        "name": "Swati"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tswana"
+      },
+      {
+        "__typename": "Language",
+        "name": "Tsonga"
+      },
+      {
+        "__typename": "Language",
+        "name": "Venda"
+      },
+      {
+        "__typename": "Language",
+        "name": "Xhosa"
+      },
+      {
+        "__typename": "Language",
+        "name": "Zulu"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ZA",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Zambia",
+    "code": "ZM",
+    "capital": "Lusaka",
+    "currency": "ZMW",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ZM",
+    "Latitude": null,
+    "Longitude": null
+  },
+  {
+    "__typename": "Country",
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "capital": "Harare",
+    "currency": "USD,ZAR,BWP,GBP,AUD,CNY,INR,JPY",
+    "languages": [
+      {
+        "__typename": "Language",
+        "name": "English"
+      },
+      {
+        "__typename": "Language",
+        "name": "Shona"
+      },
+      {
+        "__typename": "Language",
+        "name": "North Ndebele"
+      }
+    ],
+    "continent": {
+      "__typename": "Continent",
+      "name": "Africa"
+    },
+    "ISO Code": "ZW",
+    "Latitude": null,
+    "Longitude": null
+  }
+]
