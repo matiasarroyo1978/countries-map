@@ -63,7 +63,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <header className="bg-gray-500 text-primary-foreground p-4 flex justify-center items-center">
-        <h1 className="text-2xl font-bold">Countries Map</h1>
+        <h1 className="text-2xl text-white font-bold">Countries Map</h1>
       </header>
       <main className="flex-grow flex flex-col md:flex-row p-4">
         <div className="w-full md:w-1/3 p-4 bg-slate-50 rounded-lg shadow-md mb-4 md:mb-0 md:mr-4 overflow-y-auto max-h-[calc(100vh-200px)]">
