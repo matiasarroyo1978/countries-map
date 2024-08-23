@@ -1,34 +1,13 @@
 import { APICountry, CombinedCountry, ExistingCountry } from '@/app/types/types';
-import { ApolloClient, InMemoryCache, gql } from '@apollo/client/core';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import client from '../lib/apollo-client';
+import { GET_COUNTRIES } from '../lib/queries';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '../../');
-
-const client = new ApolloClient({
-  uri: 'https://countries.trevorblades.com/',
-  cache: new InMemoryCache()
-});
-
-const GET_COUNTRIES = gql`
-  query GetCountries {
-    countries {
-      name
-      code
-      capital
-      currency
-      languages {
-        name
-      }
-      continent {
-        name
-      }
-    }
-  }
-`;
 
 async function fetchCountries() {
   try {
